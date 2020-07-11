@@ -1,0 +1,25 @@
+a.hovertext {
+    position:relative;
+	width: 500px;
+    text-decoration: none;
+    text-align: center;
+	
+  }
+a.hovertext::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    padding: 0.5em 20px;
+    width: 360px;
+    background: green;
+    text-decoration: none ;
+    color: white;
+    opacity: 0;
+    transition: 2s ease;
+	
+	
+}
+a.hovertext:hover::after, a.hovertext:focus::after {
+    opacity: 1	;
+}

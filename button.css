@@ -1,0 +1,31 @@
+.button {
+    background-color: #dee0df;
+    border: none;
+	
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none	;
+    display: inlne-block;
+    font-size: 16px;
+    margin:0px 2px 2px ;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	float:center;
+	
+	}
+	.button1 {
+	font-size: 15px;
+	border-radius: 12px;
+	 background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+	}
+.button1:hover {
+    background-color: #dee0df;
+    color: brown;
+	}
+ {
+    box-sizing: border-box;
+}
